@@ -90,7 +90,7 @@ Inspired by the flexibility of open AI and WordPress integration.<br><br><br><br
 <div align="center">
 
 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐  
-📦 **CONTRIBUTING SECTION BELOW** 📦  
+💻 **Developers Welcome!** 💻  
 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐 🌐  
 
 </div>
