@@ -5,7 +5,7 @@
 ---
 
 ## 🧩 Overview  
-**WP PromptBridge AI** allows WordPress site owners to integrate powerful AI chat features directly into their website, using their own API keys from multiple providers — all while keeping those keys secure via backend routing. You can fully brand the assistant, customize its prompt, and style it to fit your site's theme.
+**WP PromptBridge AI** Allows WordPress site owners to integrate powerful AI chat features directly into their website, using their own API keys from multiple providers — all while keeping those keys secure via backend routing. You can fully brand the assistant and customize its prompt, with styling features coming soon to better match your site's theme.
 
 Perfect for support bots, creative writing tools, content generation, or general-purpose AI assistants — built your way.
 
