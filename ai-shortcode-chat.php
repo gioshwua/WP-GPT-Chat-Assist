@@ -12,3 +12,21 @@
  * Domain Path: /languages
  */
 
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
+}
+
+
+define('AI_PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('AI_PLUGIN_URL', plugin_dir_url(__FILE__));
+
+
+add_action('plugins_loaded', 'ai_plugin_init');
+
+function ai_plugin_init() {
+    require_once AI_PLUGIN_DIR . 'admin-settings.php';
+    require_once AI_PLUGIN_DIR . 'frontend-ui.php';
+
+   
+    add_action('wp_enqueue_scripts', 'ai_plugin_enqueue_assets');
+}
