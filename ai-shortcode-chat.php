@@ -30,3 +30,11 @@ function ai_plugin_init() {
    
     add_action('wp_enqueue_scripts', 'ai_plugin_enqueue_assets');
 }
+function ai_plugin_enqueue_assets() {
+    wp_enqueue_style('ai-chat-style', AI_PLUGIN_URL . 'assets/style.css');
+    wp_enqueue_script('ai-chat-script', AI_PLUGIN_URL . 'assets/script.js', ['jquery'], null, true);
+    wp_localize_script('ai-chat-script', 'aiChatData', [
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('ai_chat_nonce')
+    ]);
+}
