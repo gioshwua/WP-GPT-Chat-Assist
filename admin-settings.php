@@ -28,6 +28,8 @@ function ai_chat_settings_page() {
                         <select name="ai_chat_provider">
                             <option value="openai" <?php selected(get_option('ai_chat_provider'), 'openai'); ?>>OpenAI</option>
                             <option value="huggingface" <?php selected(get_option('ai_chat_provider'), 'huggingface'); ?>>HuggingFace</option>
+                            <option value="openrouter" <?php selected(get_option('ai_chat_provider'), 'openrouter'); ?>>OpenRouter</option>
+
                         </select>
                     </td>
                 </tr>
